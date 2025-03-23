@@ -3,6 +3,9 @@
 body {
   font-family: 'Poppins', sans-serif; 
 }
+.header-main {
+  background-color: rgb(241, 241, 241);
+}
 .nav-list {
   display: flex;
   justify-content: center;
@@ -60,6 +63,7 @@ body {
 }
 
 .home-section {
+  background-color: rgb(241, 241, 241);
   padding-top: 0;
   padding-bottom: 0;
   padding-left: 4rem;
