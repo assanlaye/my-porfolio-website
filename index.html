@@ -7,68 +7,223 @@
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="normalize.css">
   <link rel="icon" type="image/x-icon" href="./assets/img/logo-favicon.svg">
+  <link rel="stylesheet" href="./">
   
 </head>
 <body>
-  <header class="header-main">
-    <nav class="nav-bar"> 
-      <a href="#home"><img class="logo" src="./assets/img/logo.svg" alt=""></a>
-           
-      <ul class="nav-list">
-        <li class="link-list">
-          <a class="links"  href="#home">Home</a>
+  <header class="hero-header">
+    <nav class="nav-bar">
+      <div class="logo-container">
+        <img class="logo" src="./assets/img/logo.svg" alt="">
+      </div>
+      
+      <ul class="list-contain">
+        <li>
+          <a class="links"  href="#">
+            Home
+          </a>
         </li>
-        <li class="link-list">
-          <a class="links" href="#about">About Me</a>
+        
+        <li>
+          <a class="links" href="#about">
+            About Me
+          </a>
+        </li>
+        
+        <li>
+          <a class="links" href="#projects">
+            Projects
+          </a>
         </li>
 
-        <li class="link-list">
-          <a class="links" href="#projects">Projects</a>
-        </li>
-        <li class="link-list">
-          <a class="links" href="#contact_me">Contact</a>
+        <li>
+          <a class="links" href="#contact_me">
+            Contact
+          </a>
         </li>
       </ul>
     </nav>
+
+   
   </header>
-  <main class="main-content">
-    <section class="section home-section" id="home">
-      <img class="profile" src="./assets/img/profile3.png" alt="">
-      <div class="company-name-container">
-        <h1 class="company-name">
-          I'm Alassan
-        </h1>
-        <h2 class="who">Freelance Web Developer | Designer</h2>
+  <main>
+    <!--Hero Section-->
+    <section class="hero" id="home">
+      <!--Add Image here-->
+      <div class="headshot-container">
+        <img class="headshot" src="./assets/img/profile5.webp" alt="Alassan head shot">
+      </div>
+      <div class="hero-text">
+        <h2 class="name">Hello, I'm Alassan 👋🏼 </h2>
+        <h2 class="who">CS  Student | Graphic Designer</h2>
         <p class="profession">
-          I'm a creative frontend developer and designer with a passion for crafting beautiful, responsive user interfaces. I also specialize in 3D modeling, blending code and design to bring interactive, visually engaging experiences to life.
+          I'm a Computer Science Student and designer with a passion for crafting beautiful, responsive user interfaces. I also specialize in 3D modeling, blending code and design to bring interactive, visually engaging experiences to life.
+        </p>
+      </div>
+    </section>
+
+    <!-- About Me-->
+     <section class="about" id="about">
+
+      <h1 class="headers">About</h1>
+      <div class="section-paragrah">
+        <p>
+          Ever since I graduated from high school, I’ve been deeply fascinated by the world of programming and design. There’s something incredibly rewarding about bringing ideas to life through code and watching them evolve in real time. This immediate feedback and sense of creation sparked a passion in me, especially for design and web development. 
         </p>
 
+
+        <div class="timeline">
+          <div>
+            <p class="date">2018 - Present</p>
+          </div>
+          
+          <div class="timeline-content">
+            <p class="school">Bsc. Computer Science</p>
+            <p>University of The Gambia</p>
+            <p>Bundung, The Gambia</p>
+          </div>
+        </div>
+      </div>
+     </section>
+
+    <!-- Porfolio -->
+     <section class="skills-section" id="portfolio">
+      <h1 class="skills-header">Skills</h1>
+
+      <div class="porfolio-content">
+          <p class="portfolio-paragraph">
+            I have quite an experiences in Web development with HTML and CSS and backend development(with Spring boot and Java). <br/>I also have experiences in graphic design(with Adobe illustrator) and 3D design(with Blender 3D).
+          </p>   
       </div>
       
-    </section>
+      <div class="cells">
+        <div class="cell">
+          <img class="icon" src="./assets/icons/icons8-html.svg" alt="">
+          <span>HTML</span>
+        </div>
 
-    <section class="about-section" id="about">
-      <p class="headers">
-        About Me.
-      </p>
-      <div class="section-paragraph">
-        <p class="about-paragraph">
-          Ever since I graduated from high school, I’ve been deeply fascinated by the world of programming and design. There’s something incredibly rewarding about bringing ideas to life through code and watching them evolve in real time. This immediate feedback and sense of creation sparked a passion in me, especially for design and web development.
-        </p>
+        <div class="cell">
+          <img class="icon" src="./assets/icons/icons8-css.svg" alt="">
+          <span>CSS</span>
+        </div>
+     
+
+
+        <div class="cell">
+          <img class="icon" src="./assets/icons/icons8-java.svg" alt="">
+          <span>Java</span>
+        </div>
+
+        <div class="cell">
+          <img class="icon" src="./assets/icons/Springboot.svg" alt="">
+          <span>Spring Boot</span>
+        </div>
+
+        <div class="cell">
+          <img class="icon" src="./assets/icons/icons8-blender.svg" alt="">
+          <span>Blender</span>
+        </div>
+
+        <div class="cell">
+          <img class="icon" src="./assets/icons/icons8-illustrator.svg" alt="">
+          <span>Illustrator</span>
+        </div>
+      </div>
+     </section>
+
+     <!-- Projects -->
+     <section class="project-section" id="projects">
+      <h1 class="headers">Projects</h1>
+      <div class="project-catalog">
+        <!-- Project I-->
+        <div class="project-cell">
+          <img class="project-img" src="./assets/img/project1.jpg" alt="">
+          
+          <div class="project-description">
+            <p class="project-title">
+              Tribute Page - Kunta Kinteh
+            </p>
+            <div class="project-detail">
+              <p class="project-text">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deleniti possimus minus non, tempore quis voluptatibus consequatur sint sequi magni perspiciatis doloribus eveniet! Aut illo itaque obcaecati atque, eius esse praesentium.
+              </p>
+  
+              <button class="btn-open">
+                Open
+              </button>
+            </div>
+          </div>
+        </div>
+
+
+        <!-- Project I-->
+        <div class="project-cell">
+          <img class="project-img" src="./assets/img/project1.jpg" alt="">
+          
+          <div class="project-description">
+            <p class="project-title">
+              Technical Documentation Page
+            </p>
+            <div class="project-detail">
+              <p class="project-text">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deleniti possimus minus non, tempore quis voluptatibus consequatur sint sequi magni perspiciatis doloribus eveniet! Aut illo itaque obcaecati atque, eius esse praesentium.
+              </p>
+  
+              <button class="btn-open">
+                Open
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project I-->
+        <div class="project-cell">
+          <img class="project-img" src="./assets/img/project1.jpg" alt="">
+          
+          <div class="project-description">
+            <p class="project-title">
+              Inventory Management System 
+            </p>
+            <div class="project-detail">
+              <p class="project-text">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deleniti possimus minus non, tempore quis voluptatibus consequatur sint sequi magni perspiciatis doloribus eveniet! Aut illo itaque obcaecati atque, eius esse praesentium.
+              </p>
+  
+              <button class="btn-open">
+                Open
+              </button>
+            </div>
+          </div>
+        </div>
+
+
+        <!-- Project I-->
+        <div class="project-cell">
+          <img class="project-img" src="./assets/img/project1.jpg" alt="">
+          
+          <div class="project-description">
+            <p class="project-title">
+              Porfolio Website
+            </p>
+            <div class="project-detail">
+              <p class="project-text">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deleniti possimus minus non, tempore quis voluptatibus consequatur sint sequi magni perspiciatis doloribus eveniet! Aut illo itaque obcaecati atque, eius esse praesentium.
+              </p>
+  
+              <button class="btn-open">
+                Open
+              </button>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
-
-    <section class="section" id="projects">
-      <p class="headers">
-        Projects.
-      </p>
-    </section>
-
-    <section class="section" id="contact_me">
-      <p class="headers">
-        Contact.
-      </p>
-    </section>
+    
+     <!-- Contact -->
+      <section class="contact-section" id="contact">
+        <h1 class="headers">Contact</h1>
+      </section>
+  
   </main>
   <footer class="footer"></footer>
 </body>
