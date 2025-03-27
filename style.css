@@ -21,8 +21,8 @@ body {
 
 @media (max-width: 31.25rem){
   .nav-bar {
-    padding-left: 1.25rem;
-    padding-right: 1.25rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
   }
 
   .links {
@@ -34,6 +34,10 @@ body {
     width: 1.25rem;
     height: 1.25rem;
     
+  }
+
+  .footer-text {
+    font-size: 0.5rem;
   }
 }
 
@@ -181,6 +185,9 @@ body {
   .list-contain{
     text-wrap: nowrap;
     
+  }
+  .footer-text {
+    font-size: 0.5rem;
   }
 
  
@@ -382,22 +389,20 @@ body {
 
 
 /* Contact style */
-
 .contact-section {
   background-color: #fff;
-  padding-top: 4rem;
-  padding-bottom: 6rem;
-
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.contact-left {
+.contact-form {
   display: flex;
+  justify-content: center;
   flex-direction: column;
-  align-items: start;
+  align-items: center;
   gap: 1rem;
+
 }
 .contact-inputs {
   width: 25rem;
@@ -406,6 +411,8 @@ body {
   padding-left: 1.56rem;
   color: #143D60;
   border-radius: 0.4rem;
+  margin-right: 4rem;
+  margin-left: 4rem;
 }
 .contact-inputs-textarea {
   width: 25rem;
@@ -416,6 +423,8 @@ body {
   padding-left: 1.56rem;
   color: #143D60;
   border-radius: 0.4rem;
+  margin-right: 4rem;
+  margin-left: 4rem;
 }
 .btn-submit {
   display: inline-block;
@@ -425,6 +434,11 @@ body {
   background-color: #4caf50;
   border-radius: 0.3rem;
   cursor: pointer;
+  margin-bottom: 6rem;
+}
+.contact-header {
+  padding-top: 2rem;
+
 }
 
 .footer {
