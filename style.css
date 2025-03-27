@@ -202,6 +202,7 @@ html {
 }
 
 /* About Section */
+
 .headers {
   white-space: nowrap;
   font-size: 2.5rem;
@@ -240,6 +241,7 @@ html {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
+  flex-wrap: wrap;
   gap: 10rem;
   background-color: #fff;
   padding-right: 6rem;
