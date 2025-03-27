@@ -209,7 +209,7 @@ html {
   font-weight: 600;
   display: inline-block;
   color: rgb(100, 193, 255);
-  margin: 0;
+  margin-bottom: 1rem;
 }
 
 .qualification-type {
@@ -242,7 +242,6 @@ html {
   justify-content: space-between;
   align-items: flex-start;
   flex-wrap: wrap;
-  gap: 10rem;
   background-color: #fff;
   padding-right: 6rem;
   padding-left: 4rem;
